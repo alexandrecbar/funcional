@@ -6,13 +6,14 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class instancia {
+public class Instancia {
 
-	public instancia() {
+	public Instancia() {
 
 		
 		
 		try {
+			
 			Scanner teclado = new Scanner(System.in);
 			String[] campos;
 			BufferedReader arquivo = new BufferedReader(new FileReader(teclado.nextLine()));

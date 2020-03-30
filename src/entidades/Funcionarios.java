@@ -1,12 +1,12 @@
-package executaveis;
+package entidades;
 
-public class funcionarios {
+public class Funcionarios {
 
 	String nome;
 	String email;
 	Double salario;
 
-	public funcionarios(String nome, String email, Double salario) {
+	public Funcionarios(String nome, String email, Double salario) {
 		this.nome = nome;
 		this.email = email;
 		this.salario = salario;
