@@ -6,11 +6,11 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.util.Scanner;
 
-public class NomeErrado {
+public class Instancia {
 	
 	//sera que agora o GitHub atualiza?
 
-	public NomeErrado() {
+	public Instancia() {
 
 		
 		
