@@ -1,14 +1,12 @@
 package entidades;
 
-public class Funcionarios {
+public class Funcionario {
 	
-	//comentario apenas para ver se atualiza o Github 
-
 	String nome;
 	String email;
 	Double salario;
 
-	public Funcionarios(String nome, String email, Double salario) {
+	public Funcionario(String nome, String email, Double salario) {
 		this.nome = nome;
 		this.email = email;
 		this.salario = salario;
