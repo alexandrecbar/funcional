@@ -8,9 +8,9 @@ import java.util.ArrayList;
 import java.util.List;
 import java.util.Scanner;
 
-public class Instancia {
+public class Consulta {
 
-	public Instancia() {
+	public Consulta() {
 
 		try {
 
@@ -32,14 +32,15 @@ public class Instancia {
 
 			}
 
-			for (Funcionario funcionario : listaFuncionarios) {
-				
-				System.out.println("Nome: " +  funcionario.getNome() + " Email: " + funcionario.getEmail() + " Salario: " + funcionario.getSalario());
-				
-			}
 			
-			//listaFuncionarios.stream().forEach(System.out::println);
-			
+
+			System.out.println(listaFuncionarios.size());
+//			listaFuncionarios.forEach(System.out::println);
+
+//			Stream<Funcionario> listaFuncionariosFiltrada = listaFuncionarios.stream();
+//			listaFuncionariosFiltrada.sorted((a,b) -> a.compareTo(b));
+//			listaFuncionariosFiltrada.forEach(System.out::println);
+
 			arquivo.close();
 
 		} catch (FileNotFoundException e) {

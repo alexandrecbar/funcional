@@ -1,12 +1,12 @@
 package executaveis;
 
-import entidades.Instancia;
+import entidades.Consulta;
 
 public class Inicio {
 
 	public static void main(String[] args) {
 
-		Instancia instancia = new Instancia();
+		Consulta consulta = new Consulta();
 
 	}
 
