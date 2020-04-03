@@ -1,6 +1,6 @@
 package entidades;
 
-public class Funcionario {
+public class Funcionario implements Comparable<Funcionario> {
 
 	String nome;
 	String email;
@@ -29,16 +29,9 @@ public class Funcionario {
 		return "Funcionario [nome=" + nome + ", email=" + email + ", salario=" + salario + "]";
 	}
 
-//
-//	public int compareTo(Funcionario a, Funcionario b) {
-//		
-//		return a.getEmail().compareTo(b.getEmail());
-//	}
+	@Override
+	public int compareTo(Funcionario funcionario) {
 
-//	@Override
-//	public int compareTo(Object o) {
-//		// TODO Auto-generated method stub
-//		return ;
-//	}
-
+		return this.email.compareTo(funcionario.getEmail());
+	}
 }
